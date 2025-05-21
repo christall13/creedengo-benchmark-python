@@ -7,6 +7,7 @@ from helpers import *
 global_counter = 0
 
 def increment_global(n):
+    global global_counter
     global_counter = 0
     for _ in range(n):
         global_counter += 1 
